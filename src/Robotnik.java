@@ -23,8 +23,8 @@ public class Robotnik extends Pracownik {
 	}
 	
 	public String toString(){
-		return super.toString() + String.format("%12c%4d", stawkaGodzinowa);
-		
+		return String.format("%s%12d",super.toString(),  stawkaGodzinowa);
+		 
 	}
 	
 	
