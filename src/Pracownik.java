@@ -29,6 +29,7 @@ abstract public class Pracownik implements Comparable <Pracownik>, Serializable 
 	@Override
 	public int compareTo(Pracownik p) {
 		return nazwisko.compareTo(p.nazwisko);
+
 	}
 	
 	public String toString(){
